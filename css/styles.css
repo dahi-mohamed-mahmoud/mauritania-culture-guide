@@ -46,6 +46,7 @@ body {
   background-position: center;
   background-color: #041c32;
   transition: 5s;
+  background-attachment: fixed;
 
   animation-name: animate;
   animation-direction: alternate-reverse;
@@ -61,40 +62,46 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
   }
   20% {
     background: url(../images/bg4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
   }
   40% {
     background: url(../images/bg7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
   }
   60% {
     background: url(../images/bg3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
   }
   80% {
     background: url(../images/tirjit2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
   }
   100% {
     background: url(../images/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
   }
 }
 section {
-  padding: 200px;
+  padding: 100px;
   background-color: #064663;
   position: relative;
 }
@@ -119,4 +126,18 @@ section {
 }
 .container a:hover {
   transform: scale(1.1);
+}
+.culture {
+  display: flex;
+  justify-content: center;
+}
+table {
+  width: 400px;
+}
+table,
+tr,
+td {
+  border: 1px solid black;
+  padding: 10px;
+  border-collapse: collapse;
 }
