@@ -9,6 +9,9 @@ header {
   align-items: center;
   background-color: #222831;
   padding: 8px 16px;
+  position: sticky;
+  z-index: 1;
+  top: 0;
 }
 .logo {
   font-size: 1.4em;
@@ -93,6 +96,7 @@ body {
 section {
   padding: 200px;
   background-color: #064663;
+  position: relative;
 }
 .container h2 {
   font-size: 4em;
