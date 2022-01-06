@@ -172,3 +172,10 @@ audio {
 .map-card p {
   padding-bottom: 10px;
 }
+.land {
+  margin-top: 20px;
+}
+.land h2 {
+  font-size: 1.6em;
+  font-weight: 600;
+}
