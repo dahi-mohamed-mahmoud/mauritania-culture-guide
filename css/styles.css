@@ -156,6 +156,10 @@ td {
   padding-right: 25px;
   padding-bottom: 10px;
 }
+.mauritania p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 .flag img {
   width: 100px;
 }
@@ -166,7 +170,7 @@ audio {
 .audio {
   border: 1px solid black;
   width: 30%;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 .map-card p {
@@ -179,4 +183,7 @@ audio {
 .land h2 {
   font-size: 1.6em;
   font-weight: 600;
+}
+.language {
+  margin-bottom: 20px;
 }
