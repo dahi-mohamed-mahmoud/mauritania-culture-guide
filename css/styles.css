@@ -167,4 +167,8 @@ audio {
   border: 1px solid black;
   width: 30%;
   margin-top: 5px;
+  margin-bottom: 10px;
+}
+.map-card p {
+  padding-bottom: 10px;
 }
