@@ -159,3 +159,12 @@ td {
 .flag img {
   width: 100px;
 }
+audio {
+  padding-top: 10px;
+  width: 240px;
+}
+.audio {
+  border: 1px solid black;
+  width: 30%;
+  margin-top: 5px;
+}
