@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #222831;
+  background-color: #041c32;
   padding: 8px 16px;
   position: sticky;
   z-index: 1;
@@ -17,7 +18,7 @@ header {
   font-size: 1.4em;
   font-weight: 600;
   text-decoration: none;
-  color: #213970;
+  color: #046582;
 }
 .navigation a {
   color: #ffff;
@@ -29,8 +30,7 @@ header {
   border-bottom: solid 2px transparent;
 }
 .navigation a:hover {
-  color: #064663;
-  border-bottom: solid 2px #064663;
+  background-color: #064663;
 }
 body {
   height: 100%;
@@ -40,15 +40,19 @@ body {
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: url(../images/bg2.jpg);
+  background-image: url(../images/bernice-tong-VPTSmbGba7Q-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-color: #041c32;
   transition: 5s;
   background-attachment: fixed;
+  color: #04293a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  animation-name: animate;
+  /* animation-name: animate; 
   animation-direction: alternate-reverse;
   animation-duration: 30s;
   animation-fill-mode: forwards;
@@ -58,47 +62,50 @@ body {
 }
 @keyframes animate {
   0% {
-    background: url(../images/lbkhour3.jpg);
+    background: url(../images/bg20.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
   }
   20% {
-    background: url(../images/bg4.jpg);
+    background: url(../images/bg17.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
   }
   40% {
-    background: url(../images/bg7.jpg);
+    background: url(../images/bg14.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
   }
   60% {
-    background: url(../images/bg3.jpg);
+    background: url(../images/background12.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
   }
   80% {
-    background: url(../images/tirjit2.jpg);
+    background: url(../images/bg15.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
   }
   100% {
-    background: url(../images/bg2.jpg);
+    background: url(../images/bg21.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-  }
+  }*/
+}
+.container {
+  padding-left: 100px;
 }
 section {
   padding: 100px;
@@ -110,6 +117,8 @@ section {
   font-weight: 700;
   text-transform: capitalize;
   padding-bottom: 10px;
+  padding-left: 250px;
+  font-family: "Merriweather", cursive;
 }
 .container a {
   text-decoration: none;
@@ -118,11 +127,12 @@ section {
   font-size: 1.6em;
   font-weight: 600;
   border-radius: 15px;
-  background-color: #222831;
+  background: linear-gradient(45deg, #fd267a, #ff6036);
   padding: 10px 40px;
   display: inline-block;
   margin-top: 30px;
   transition: 0.7s ease;
+  margin-left: 340px;
 }
 .container a:hover {
   transform: scale(1.1);
