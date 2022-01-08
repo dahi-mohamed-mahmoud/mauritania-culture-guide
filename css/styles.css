@@ -30,8 +30,7 @@ header {
   border-bottom: solid 2px transparent;
 }
 .navigation a:hover {
-  color: #064663;
-  border-bottom: solid 2px #064663;                                                                                                                                         z
+  border: solid 1px #fff;                                                                                                                                         z
 }
 body {
   height: 100%;
@@ -110,7 +109,6 @@ body {
 }
 section {
   padding: 100px;
-  background-color: #222831;
   position: relative;
 }
 .container h2 {
