@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: georgia,Times New Roman,serif;
 }
 header {
   display: flex;
@@ -177,7 +178,7 @@ audio {
   width: 240px;
 }
 .audio {
-  border: 1px solid black;
+  border: 1px solid transparent;
   width: 30%;
   margin-top: 10px;
   margin-bottom: 10px;
