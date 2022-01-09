@@ -154,6 +154,7 @@ td {
 }
 .content {
   border: 1px solid black;
+  margin-left: 5px;
 }
 .facts {
   border: 1px solid black;
@@ -209,11 +210,48 @@ audio {
   padding: 10px 40px;
   display: inline-block;
   margin-top: 30px;
-  transition: 0.7s ease;
 }
 .info{
   padding-left: 20px;
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+}
+.img-btn{
+  margin-left: 30px;
+  border: 1px solid #ccc;
+  height: 30vh;
+  box-shadow: 0 10px 20px rgba(0,0,0, 0.19);
+  padding: 10px;
+  margin-right: 20px;
+  width: 21.2em;
+  text-align: center;
+  position: sticky;
+  z-index:2;
+  top: 80px;
+
+
+}
+.img-btn a{
+  border: solid 1px transparent;
+  text-decoration: none;
+  color: #000;
+  border-radius: 15px;
+  background-color: #f2cc6e;
+  padding: 10px 10px;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+.img-btn h4{
+  padding-bottom: 30px;
+  padding-top: 30px;
+  color: #041c32;
+
+
+}
+
+ p{
+  line-height: 25px;
 }
