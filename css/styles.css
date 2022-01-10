@@ -14,6 +14,7 @@ header {
   position: sticky;
   z-index: 1;
   top: 0;
+  right: 0;
 }
 .logo {
   font-size: 1.4em;
@@ -254,4 +255,42 @@ audio {
 
  p{
   line-height: 25px;
+}
+/* start mauritani images page */
+.gallery-section{
+  width: 100%;
+  padding: 60px 0;
+}
+.inner-width{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+.gallery-section h1{
+  text-align: center;
+  text-transform: uppercase;
+  color: #333;
+}
+.border{
+  width: 180px;
+  height: 4px;
+  background-color: #333;
+  margin: 60px auto;
+
+}
+.gallery-section .gallery{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+.gallery-section .img{
+  flex: 25%;
+  overflow: hidden;
+  cursor: pointer;
+}
+.gallery-section .img img{
+  width: 100%;
+  height: 100%;
+  margin: 5px;
 }
