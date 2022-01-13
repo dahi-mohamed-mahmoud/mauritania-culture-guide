@@ -299,9 +299,9 @@ audio {
 
 .quizes{
   padding: 10px ;
-   background-color: #04293a;
+  background-color: #04293a;
   width: 100%;
-  height: 100vh;
+  max-height: 100vh;
   background: url(../images/Ah\ autumn...\ 🍁.jpg);
 
 }
@@ -313,11 +313,13 @@ audio {
   font-size: 1.4em;
   font-weight: 600;
   margin: 20px 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #fff;
 }
 .quize{
   border-radius: 15px;
   border: solid 2px #046582;
-  box-shadow: 10px 10px 25px rgba(0,0,0, 0.19);
+  box-shadow: 0 10px 20px rgba(0,0,0, 0.19);
   width:41.2em;
   height: 300px;
   margin: 0 auto;
@@ -331,22 +333,36 @@ audio {
 }
 .Q1{
   position: absolute;
-  left: 10px;
+  left: 70px;
+  top: 90px ;
   color: #333;
+  border-radius: 15px;
+  border:solid 1px #046582;
+  padding: 10px 40px;
 }
 .Q2{
   position: absolute;
-  left: 10px;
-  bottom: 150px;
+  left: 70px;
+  bottom: 80px;
+  border-radius: 15px;
+  border:solid 1px #046582;
+  padding: 10px 40px;
 }
 .Q3{
   position: absolute;
-  right: 10px;
+  right: 70px;
+  top: 90px;
+  border-radius: 15px;
+  border:solid 1px #046582;
+  padding: 10px 40px;
 }
 .Q4{
   position: absolute;
-  right: 10px;
-  bottom: 150px;
+  right: 70px;
+  bottom: 80px;
+  border-radius: 15px;
+  border:solid 1px #046582;
+  padding: 10px 40px;
 }
 .quizes-btn{
   margin-top: 30px;
@@ -362,5 +378,8 @@ audio {
       padding: 10px 50px;
       color: #fff;
       margin-left: 180px;
+}
+ input[type=radio] {
+     opacity: 0;
 }
 
