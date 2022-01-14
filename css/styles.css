@@ -381,5 +381,16 @@ audio {
 }
  input[type=radio] {
      opacity: 0;
+     cursor: pointer;
+}
+ .bg-color-cursor:hover{
+    background-color: #213970;
+    color: #fff;
+}
+label{
+  cursor: pointer;
+}
+.bg-color-cursor{
+  cursor: pointer;
 }
 
