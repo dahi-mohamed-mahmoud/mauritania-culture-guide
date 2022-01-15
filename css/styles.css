@@ -42,69 +42,17 @@ body {
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: url(../images/bernice-tong-VPTSmbGba7Q-unsplash.jpg);
+  background-image: url(../images/dark-wood.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-color: #041c32;
   transition: 5s;
   background-attachment: fixed;
-  color: #04293a;
+  color: #f1f1f1;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* animation-name: animate; 
-  animation-direction: alternate-reverse;
-  animation-duration: 30s;
-  animation-fill-mode: forwards;
-  animation-iteration-count: infinite;
-  animation-play-state: running;
-  animation-timing-function: ease-in-out;
-}
-@keyframes animate {
-  0% {
-    background: url(../images/bg20.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
-  20% {
-    background: url(../images/bg17.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
-  40% {
-    background: url(../images/bg14.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
-  60% {
-    background: url(../images/background12.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
-  80% {
-    background: url(../images/bg15.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
-  100% {
-    background: url(../images/bg21.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }*/
 }
 .container {
   padding-left: 100px;
@@ -114,27 +62,31 @@ section {
   position: relative;
 }
 .container h2 {
-  font-size: 4em;
+  font-size: 5em;
   font-weight: 700;
   text-transform: capitalize;
   padding-bottom: 10px;
   padding-left: 250px;
-  font-family: "Merriweather", cursive;
+  margin-left: auto;
+  /* font-family: "Merriweather", cursive; */
+  font-family: "Sacramento", cursive;
+  /* font-family: 'Moon Dance', cursive; */
 }
 .container a {
   text-decoration: none;
   color: #fff;
   text-transform: capitalize;
-  font-size: 1.6em;
-  font-weight: 600;
+  font-size: 1.8em;
+  font-weight: 700;
   border-radius: 15px;
-  /* background: linear-gradient(45deg, #fd267a, #ff6036); */
-  background-color: #04293a;
+  background-color: transparent;
+  border: solid 1px #046582;
   padding: 10px 40px;
   display: inline-block;
   margin-top: 30px;
   transition: 0.7s ease;
-  margin-left: 340px;
+  margin-left: 360px;
+  font-family: 'Moon Dance', cursive;
 }
 .container a:hover {
   transform: scale(1.1);
@@ -298,21 +250,22 @@ audio {
 /* quizes page */
 
 .quizes{
-  padding: 10px ;
-  background-color: #04293a;
-  width: 100%;
-  max-height: 100vh;
-  background: url(../images/Ah\ autumn...\ 🍁.jpg);
+  background: url(../images/dark-wood.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #041c32;
 
 }
 .quize-content{
   text-align: center;
   padding: 100px;
+  position: relative;
 }
 .title{
   font-size: 1.4em;
   font-weight: 600;
-  margin: 20px 0;
+  margin: 10px 0;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #fff;
 }
@@ -323,22 +276,25 @@ audio {
   width:41.2em;
   height: 300px;
   margin: 0 auto;
-  background-color: #f1f1f1;
+  background-color: transparent;
   position: relative;
 }
 .Q{
-  margin-left: -300px;
+  margin-left: -230px;
   padding: 15px 0;
 
+}
+.Q h4{
+  color: #fff;
 }
 .Q1{
   position: absolute;
   left: 70px;
   top: 90px ;
-  color: #333;
   border-radius: 15px;
   border:solid 1px #046582;
   padding: 10px 40px;
+  color:#fff; 
 }
 .Q2{
   position: absolute;
@@ -347,6 +303,7 @@ audio {
   border-radius: 15px;
   border:solid 1px #046582;
   padding: 10px 40px;
+  color:#fff;
 }
 .Q3{
   position: absolute;
@@ -355,6 +312,7 @@ audio {
   border-radius: 15px;
   border:solid 1px #046582;
   padding: 10px 40px;
+  color:#fff;
 }
 .Q4{
   position: absolute;
@@ -363,12 +321,14 @@ audio {
   border-radius: 15px;
   border:solid 1px #046582;
   padding: 10px 40px;
+  color:#fff;
+  
 }
 .quizes-btn{
   margin-top: 30px;
   margin-left: 300px;
 }
-.next-btn a{
+.next-btn{
       font-size: 1.5em;
       font-weight: 700;
       text-decoration: none;
@@ -377,11 +337,26 @@ audio {
       background-color: #054b61;
       padding: 10px 50px;
       color: #fff;
-      margin-left: 180px;
+      /* margin-left: 180px; */
+      position: relative;
+      right: -180px;
+}
+.back-btn{
+  font-size: 1.5em;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: capitalize;
+  border-radius: 15px;
+  background-color: #054b61;
+  padding: 10px 50px;
+  color: #fff;
+  position: relative;
+  left: -460px;
 }
  input[type=radio] {
-     opacity: 0;
+     opacity: 0.6;
      cursor: pointer;
+     
 }
  .bg-color-cursor:hover{
     background-color: #213970;
@@ -389,8 +364,32 @@ audio {
 }
 label{
   cursor: pointer;
+  
 }
 .bg-color-cursor{
   cursor: pointer;
 }
 
+/* start section quize2 */
+
+.quize2{
+  background: url(../images/dark-wood.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #041c32;
+}
+input[type= submit]{
+  font-size: 1.5em;
+      font-weight: 700;
+      text-decoration: none;
+      text-transform: capitalize;
+      border-radius: 15px;
+      background-color: #054b61;
+      padding: 10px 50px;
+      color: #fff;
+      /* margin-left: 180px; */
+      position: relative;
+      right: -180px;
+      border: solid 1px #046582 ;
+}
