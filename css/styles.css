@@ -95,6 +95,8 @@ section {
   display: flex;
   justify-content: center;
   padding: 20px 0;
+  background: url(../images/dark-wood.png);
+  background-color: #054b61;
 }
 table {
   width: 100%;
@@ -105,6 +107,7 @@ td {
   border: 1px solid black;
   padding: 20px;
   border-collapse: collapse;
+  color: #f1f1f1;
 }
 .content {
   border: 1px solid black;
@@ -170,6 +173,8 @@ audio {
   padding-top: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+  background: url(../images/dark-wood.png);
+  background-color: #054b61;
 }
 .img-btn{
   margin-left: 30px;
@@ -201,13 +206,12 @@ audio {
 .img-btn h4{
   padding-bottom: 30px;
   padding-top: 30px;
-  color: #041c32;
-
-
+  color: #f1f1f1;
 }
 
  p{
   line-height: 25px;
+  color: #f1f1f1;
 }
 /* start mauritani images page */
 .gallery-section{
