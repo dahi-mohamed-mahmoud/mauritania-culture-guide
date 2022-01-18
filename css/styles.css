@@ -383,7 +383,7 @@ label{
   background-attachment: fixed;
   background-color: #041c32;
 }
-input[type= submit]{
+.submit{
   font-size: 1.5em;
       font-weight: 700;
       text-decoration: none;
