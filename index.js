@@ -75,5 +75,18 @@ s=s-1;
 alert("Votre score est :" +s);
 }
 }
+if(s>=8){
+    alert("very good knowledge of Mauritania ");   
+   }
+   else if (s>=6 && s<8){
+       alert(" good knowledge of Mauritania ");
+   }
+   else if(s>=4 && s<6){
+       alert(" Average knowledge of Mauritania");
+   }
+   else if(s<4){
+       alert("poor knowledge of Mauritania ");
+   }
+   alert(" answer 1= Ghazouani .\n answer 2= 28 november 1960 .\n answer 3=Nouackchott .\n answer 4=wolf and arabic. \n answer 5= none . ");
 
 }
